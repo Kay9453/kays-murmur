@@ -341,7 +341,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/banner.jpg") center #000;
+  background: url("images/banner2.jpg") center #000;
   background-size: cover;
   z-index: -1;
 }
@@ -380,8 +380,8 @@ body {
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #fff;
-  opacity: 0.6;
+  color: #fff2e0;
+  /* opacity: 0.6; */
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -393,6 +393,7 @@ body {
 }
 .nav-icon:hover,
 .main-nav-link:hover {
+  color: #c6453e;
   opacity: 1;
 }
 .nav-icon {
@@ -1273,7 +1274,7 @@ pre .javascript .function {
 .widget {
   color: #777;
   text-shadow: 0 1px #fff;
-  background: #ddd;
+  background: #fff2e0;;
   -webkit-box-shadow: 0 -1px 4px #ccc inset;
   box-shadow: 0 -1px 4px #ccc inset;
   border: 1px solid #ccc;
